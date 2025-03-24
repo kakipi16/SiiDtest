@@ -326,6 +326,7 @@ font-size: 12px;
     padding: 15px 60px;
     box-shadow: 5px 5px 0 #bbb;
     transition: box-shadow 0.25s, transform 0.25s;
+    color: #fff;
 }
 
 .button > a {
