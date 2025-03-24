@@ -5,6 +5,12 @@ html {
 
 }
 
+@media screen and (max-width: 768px) {
+    #page_top  {
+        display: none;
+    }
+}
+
 /* base style */
 body {
   font-family:
@@ -186,7 +192,9 @@ i {
     text-align: center;
     color: #efefef;
 }
-
+.section-button > a {
+    text-decoration: none;
+}
 @media screen and (max-width: 768px) {
     .section {
         padding: 20px 15px;
