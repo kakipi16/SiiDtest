@@ -17,7 +17,7 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-26" value="学部" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="132" y="194" width="160" height="86" as="geometry" />
+          <mxGeometry x="43" y="71" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-27" value="学部ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-26">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-30" value="履修科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="367" y="-2" width="160" height="86" as="geometry" />
+          <mxGeometry x="587" y="60" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-31" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-30">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-34" value="科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="160" height="86" as="geometry" />
+          <mxGeometry x="587" y="259" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="5upYqGIjZJC8o411jshf-35" value="科目ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-34">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
