@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="ページ1" id="9RHdNtQ_W2AI37oHnFSG">
-    <mxGraphModel>
+    <mxGraphModel dx="1510" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5upYqGIjZJC8o411jshf-14" value="生徒" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-282" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-15" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-14">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-16" value="名前&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-14">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-17" value="学部ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-14">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-26" value="学部" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="132" y="194" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-27" value="学部ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-26">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-28" value="各部名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-26">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-30" value="履修科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="367" y="-2" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-31" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-30">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-32" value="科目ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-30">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-34" value="科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-35" value="科目ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-34">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-36" value="科目名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-34">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-47" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;exitX=0.994;exitY=0.14;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5upYqGIjZJC8o411jshf-26" target="5upYqGIjZJC8o411jshf-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="15" y="45" as="sourcePoint" />
+            <mxPoint x="115" y="-55" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="216" y="-114" />
+              <mxPoint x="288" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-48" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5upYqGIjZJC8o411jshf-30" target="5upYqGIjZJC8o411jshf-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="150" y="148" as="sourcePoint" />
+            <mxPoint x="283" y="49" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227" y="172" />
+              <mxPoint x="242" y="67" />
+              <mxPoint x="253" y="166" />
+              <mxPoint x="244" y="182" />
+              <mxPoint x="82" y="38" />
+              <mxPoint x="225" y="44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-49" value="１対１" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-461" y="-233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-50" value="生徒" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="-135" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-51" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-50">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-52" value="名前" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-50">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-54" value="プロフィール" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="39" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-55" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-54">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-56" value="性別" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-54">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-57" value="年齢" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-54">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-58" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;entryX=0.45;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5upYqGIjZJC8o411jshf-54" target="5upYqGIjZJC8o411jshf-52">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-277" y="130" as="sourcePoint" />
+            <mxPoint x="-177" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-59" value="学部" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="-150" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-60" value="学部ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-59">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-61" value="学部名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-59">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-63" value="生徒" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="48" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-64" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-63">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-65" value="名前" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-63">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-66" value="学部ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-63">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-67" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.506;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5upYqGIjZJC8o411jshf-61" target="5upYqGIjZJC8o411jshf-63">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-60" y="108.00999999999999" as="sourcePoint" />
+            <mxPoint x="-61" y="-5.999999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-68" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-229" y="80" as="sourcePoint" />
+            <mxPoint x="-69" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-69" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="5upYqGIjZJC8o411jshf-68">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-71" value="１対多" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="-261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-72" value="多対多" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-678" y="-235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-73" value="生徒" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-692" y="-133" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-74" value="生徒ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-73">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-75" value="名前" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-73">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-77" value="科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-698" y="151" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-78" value="科目ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-77">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-79" value="科目名" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="5upYqGIjZJC8o411jshf-77">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5upYqGIjZJC8o411jshf-81" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;entryX=0.456;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5upYqGIjZJC8o411jshf-77" target="5upYqGIjZJC8o411jshf-75">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-417" y="130" as="sourcePoint" />
+            <mxPoint x="-611.04" y="-17.99000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
